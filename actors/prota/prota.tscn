@@ -1,0 +1,55 @@
+[gd_scene load_steps=7 format=3 uid="uid://dl720421grda4"]
+
+[ext_resource type="Script" uid="uid://wpoalmj7fbg2" path="res://actors/prota/prota.gd" id="1_blval"]
+[ext_resource type="Texture2D" uid="uid://b2vsp45b6j0i" path="res://actors/prota/Individual Sprites/adventurer-idle-00.png" id="1_geido"]
+[ext_resource type="Texture2D" uid="uid://lidk3vk3tmt3" path="res://actors/prota/Individual Sprites/adventurer-idle-01.png" id="2_blval"]
+[ext_resource type="Texture2D" uid="uid://bapit2jyc2qy7" path="res://actors/prota/Individual Sprites/adventurer-idle-02.png" id="3_w25ql"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ixpc1"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_geido")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_blval")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_w25ql")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x81tb"]
+size = Vector2(13, 30)
+
+[node name="prota" type="CharacterBody2D"]
+script = ExtResource("1_blval")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -18)
+sprite_frames = SubResource("SpriteFrames_ixpc1")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.1795379
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -15)
+shape = SubResource("RectangleShape2D_x81tb")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -24)
+limit_bottom = 0
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+drag_vertical_enabled = true
+drag_left_margin = 0.3
+drag_right_margin = 0.29
+editor_draw_drag_margin = true
