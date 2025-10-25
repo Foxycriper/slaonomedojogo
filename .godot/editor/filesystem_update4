@@ -1,0 +1,7 @@
+res://scenes/prot.tscn
+res://scripts/static_body_2d.gd
+res://actors/prota/prota.tscn
+res://scripts/maleta.gd
+res://scripts/marker_2d.gd
+res://scripts/prota.gd
+res://actors/maleta.tscn

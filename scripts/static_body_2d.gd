@@ -13,7 +13,7 @@ func _process(delta: float) -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if get_overlapping_bodies().size() > 0 and mot == 0:
 		$Sprite2D.play("medo")
-		if Input.is_action_just_pressed("interagir"):
+		if Input.is_action_just_pressed("up"):
 			$Sprite2D.play("morto")
 			G.ns = 0
 			mot = 1

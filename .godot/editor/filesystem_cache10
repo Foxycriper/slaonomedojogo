@@ -1,12 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1759952552
-G.gd::GDScript::6772252054214834092::1759877169::0::1::::<>Node<><>0<>0<><>::
+::res://::1761412097
 icon.svg::CompressedTexture2D::8158647924153406276::1759866179::1759866192::1::::<><><>0<>0<>c860d126ac56a6586ca683a3c27bf23c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://actors/::1759866316
-::res://actors/prota/::1759874750
+::res://actors/::1760662209
+::res://actors/prota/::1761410111
 adventurer-v1.5-Sheet.png::CompressedTexture2D::9147459968662552586::1530507766::1759866321::1::::<><><>0<>0<>dfbea5642e7b50895f7f3681fc0dc20b<>res://.godot/imported/adventurer-v1.5-Sheet.png-c9841dd2f067821ee831af35575aaf4b.ctex::
-prota.gd::GDScript::1575970860992723635::1759872088::0::1::::<>CharacterBody2D<><>0<>0<><>::
-prota.tscn::PackedScene::7999084988956773265::1759874750::0::1::::<><><>0<>0<><>::uid://wpoalmj7fbg2::::res://actors/prota/prota.gd<>uid://b2vsp45b6j0i::::res://actors/prota/Individual Sprites/adventurer-idle-00.png<>uid://lidk3vk3tmt3::::res://actors/prota/Individual Sprites/adventurer-idle-01.png<>uid://bapit2jyc2qy7::::res://actors/prota/Individual Sprites/adventurer-idle-02.png
+prota.tscn::PackedScene::7999084988956773265::1761410111::0::1::::<><><>0<>0<><>::uid://wpoalmj7fbg2::::res://scripts/prota.gd<>uid://b2vsp45b6j0i::::res://actors/prota/Individual Sprites/adventurer-idle-00.png<>uid://lidk3vk3tmt3::::res://actors/prota/Individual Sprites/adventurer-idle-01.png<>uid://bapit2jyc2qy7::::res://actors/prota/Individual Sprites/adventurer-idle-02.png
 ::res://actors/prota/Individual Sprites/::1759866322
 adventurer-air-attack1-00.png::CompressedTexture2D::9143629803985928414::1530507817::1759866322::1::::<><><>0<>0<>1bb67ee08ccafc7206f553631d8f37b7<>res://.godot/imported/adventurer-air-attack1-00.png-704e095aec27e5ae943115bceceb05f4.ctex::
 adventurer-air-attack1-01.png::CompressedTexture2D::923331211961009092::1530507817::1759866322::1::::<><><>0<>0<>af29300a09f4aaafd3864d3e034a9e39<>res://.godot/imported/adventurer-air-attack1-01.png-5c61c581c131bd168a0ac400056893f6.ctex::
@@ -248,7 +246,12 @@ color-bars-background-template-with-no-signal-message_71609-9088.png::Compressed
 images.jpg::CompressedTexture2D::8046230947200527440::1759872879::1759874308::1::::<><><>0<>0<>e1e693906f1878db10bd16607a331a44<>res://.godot/imported/images.jpg-b2f3f58824fda30cb47018e3278f6783.ctex::
 ::res://extras/scripts/::1759877202
 maps.gd::GDScript::6764960613952436675::1759877202::0::1::::<>CanvasLayer<><>0<>0<><>::
-::res://scenes/::1759879546
+::res://scenes/::1761410200
+prot.tscn::PackedScene::8832061048317920648::1761410200::0::1::::<><><>0<>0<><>::uid://ci0r4p4f00ke8::::res://extras/backgrounds/1 Backgrounds/1/Day/1.png<>uid://dd3rph4qet7mi::::res://extras/backgrounds/1 Backgrounds/1/Day/2.png<>uid://bw71tyfwi6wn1::::res://extras/backgrounds/1 Backgrounds/1/Day/3.png<>uid://btsywtaciurpx::::res://extras/backgrounds/1 Backgrounds/1/Day/4.png<>uid://dwwfhbxn12ksy::::res://extras/backgrounds/1 Backgrounds/1/Day/5.png<>uid://dl720421grda4::::res://actors/prota/prota.tscn<>uid://lqvpr26j2k7x::::res://extras/backgrounds/Sidescroller Shooter - Central City/Assets/Tiles.png<>uid://cy6w34obvtsel::::res://extras/maps/color-bars-background-template-with-no-signal-message_71609-9088.png<>uid://c3m86bme3cvip::::res://extras/scripts/maps.gd<>uid://dmvwio3s3uktc::::res://extras/maps/images.jpg<>uid://dn8rim4bno3q7::::res://scripts/static_body_2d.gd<>uid://do4mxxgudh16l::::res://extras/i-made-a-bunch-of-different-expressions-for-the-cute-wet-v0-x7j42x7zr9d81.png
+::res://scripts/::1761409886
 camera_2d.gd::GDScript::2704636932645349743::1759867572::0::1::::<>Camera2D<><>0<>0<><>::
-prot.tscn::PackedScene::8832061048317920648::1759879415::0::1::::<><><>0<>0<><>::uid://ci0r4p4f00ke8::::res://extras/backgrounds/1 Backgrounds/1/Day/1.png<>uid://dd3rph4qet7mi::::res://extras/backgrounds/1 Backgrounds/1/Day/2.png<>uid://bw71tyfwi6wn1::::res://extras/backgrounds/1 Backgrounds/1/Day/3.png<>uid://btsywtaciurpx::::res://extras/backgrounds/1 Backgrounds/1/Day/4.png<>uid://dwwfhbxn12ksy::::res://extras/backgrounds/1 Backgrounds/1/Day/5.png<>uid://dl720421grda4::::res://actors/prota/prota.tscn<>uid://lqvpr26j2k7x::::res://extras/backgrounds/Sidescroller Shooter - Central City/Assets/Tiles.png<>uid://cy6w34obvtsel::::res://extras/maps/color-bars-background-template-with-no-signal-message_71609-9088.png<>uid://c3m86bme3cvip::::res://extras/scripts/maps.gd<>uid://dmvwio3s3uktc::::res://extras/maps/images.jpg<>uid://dn8rim4bno3q7::::res://scenes/static_body_2d.gd<>uid://do4mxxgudh16l::::res://extras/i-made-a-bunch-of-different-expressions-for-the-cute-wet-v0-x7j42x7zr9d81.png
-static_body_2d.gd::GDScript::8140888634628886608::1759879546::0::1::::<>Area2D<><>0<>0<><>::
+G.gd::GDScript::6772252054214834092::1759877169::0::1::::<>Node<><>0<>0<><>::
+prota.gd::GDScript::1575970860992723635::1759872088::0::1::::<>CharacterBody2D<><>0<>0<><>::
+static_body_2d.gd::GDScript::8140888634628886608::1761409886::0::1::::<>Area2D<><>0<>0<><>::
+::res://sprits/::1761412160
+Sprite-0001.png::CompressedTexture2D::781877098389979691::1761412160::1761412171::1::::<><><>0<>0<>73a139701922223483b684a5a7d018f1<>res://.godot/imported/Sprite-0001.png-b4e02ea8729343bafe2e921fbbcea4b9.ctex::
